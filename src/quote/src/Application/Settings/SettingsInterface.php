@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
@@ -16,3 +17,23 @@ interface SettingsInterface
      */
     public function get(string $key = '');
 }
+=======
+<?php
+// Copyright The OpenTelemetry Authors
+// SPDX-License-Identifier: Apache-2.0
+
+
+
+declare(strict_types=1);
+
+namespace App\Application\Settings;
+
+interface SettingsInterface
+{
+    /**
+     * @param string $key
+     * @return mixed
+     */
+    public function get(string $key = '');
+}
+>>>>>>> 9594cd0 (chore: verify github actions)

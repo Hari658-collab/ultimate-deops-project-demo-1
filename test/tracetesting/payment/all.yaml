@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 
@@ -11,3 +12,18 @@ spec:
   - ./invalid-credit-card.yaml
   - ./amex-credit-card-not-allowed.yaml
   - ./expired-credit-card.yaml
+=======
+# Copyright The OpenTelemetry Authors
+# SPDX-License-Identifier: Apache-2.0
+
+type: TestSuite
+spec:
+  id: payment-all
+  name: 'Payment'
+  description: Run all Payment tests enabled in sequence
+  steps:
+  - ./valid-credit-card.yaml
+  - ./invalid-credit-card.yaml
+  - ./amex-credit-card-not-allowed.yaml
+  - ./expired-credit-card.yaml
+>>>>>>> 9594cd0 (chore: verify github actions)

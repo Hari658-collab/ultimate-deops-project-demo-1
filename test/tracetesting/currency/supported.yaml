@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 
@@ -23,3 +24,30 @@ spec:
     assertions:
     - attr:tracetest.response.body | json_path '$.currencyCodes[0]' = "ZAR"
     - attr:tracetest.response.body | json_path '$.currencyCodes[32]' = "MYR"
+=======
+# Copyright The OpenTelemetry Authors
+# SPDX-License-Identifier: Apache-2.0
+
+type: Test
+spec:
+  id: currency-supported
+  name: 'Currency: Supported'
+  description: Get all supported currencies
+  trigger:
+    type: grpc
+    grpc:
+      protobufFile: ../../../pb/demo.proto
+      address: ${var:CURRENCY_ADDR}
+      method: oteldemo.CurrencyService.GetSupportedCurrencies
+  specs:
+  - name: It has a span called "Currency/GetSupportedCurrencies"
+    selector: span[tracetest.span.type="rpc" name="Currency/GetSupportedCurrencies"
+      rpc.system="grpc" rpc.method="GetSupportedCurrencies" rpc.service="oteldemo.CurrencyService"]
+    assertions:
+    - attr:name = "Currency/GetSupportedCurrencies"
+  - name: It returns the expected currency codes
+    selector: span[tracetest.span.type="general" name="Tracetest trigger"]
+    assertions:
+    - attr:tracetest.response.body | json_path '$.currencyCodes[0]' = "ZAR"
+    - attr:tracetest.response.body | json_path '$.currencyCodes[32]' = "MYR"
+>>>>>>> 9594cd0 (chore: verify github actions)

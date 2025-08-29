@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 
 rootProject.name = 'opentelemetry-demo-ad'
+=======
+
+rootProject.name = 'opentelemetry-demo-ad'
+>>>>>>> 9594cd0 (chore: verify github actions)

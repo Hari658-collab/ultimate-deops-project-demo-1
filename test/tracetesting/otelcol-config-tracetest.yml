@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 
@@ -12,3 +13,19 @@ service:
     traces:
       processors: []
       exporters: [debug, spanmetrics, otlp/tracetest]
+=======
+# Copyright The OpenTelemetry Authors
+# SPDX-License-Identifier: Apache-2.0
+
+exporters:
+  otlp/tracetest:
+    endpoint: http://tracetest-server:4317
+    tls:
+      insecure: true
+
+service:
+  pipelines:
+    traces:
+      processors: []
+      exporters: [debug, spanmetrics, otlp/tracetest]
+>>>>>>> 9594cd0 (chore: verify github actions)

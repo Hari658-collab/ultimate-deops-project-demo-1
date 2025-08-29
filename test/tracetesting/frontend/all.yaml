@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 
@@ -13,3 +14,20 @@ spec:
   - ./04-add-product-to-cart.yaml
   - ./05-view-cart.yaml
   - ./06-checking-out-cart.yaml
+=======
+# Copyright The OpenTelemetry Authors
+# SPDX-License-Identifier: Apache-2.0
+
+type: TestSuite
+spec:
+  id: frontend-all
+  name: 'Frontend Service'
+  description: Run all Frontend tests enabled in sequence, simulating a process of a user purchasing products on Astronomy store
+  steps:
+  - ./01-see-ads.yaml
+  - ./02-get-product-recommendation.yaml
+  - ./03-browse-product.yaml
+  - ./04-add-product-to-cart.yaml
+  - ./05-view-cart.yaml
+  - ./06-checking-out-cart.yaml
+>>>>>>> 9594cd0 (chore: verify github actions)

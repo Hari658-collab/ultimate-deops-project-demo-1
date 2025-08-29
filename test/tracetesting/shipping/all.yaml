@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 
@@ -10,3 +11,17 @@ spec:
   - ./quote.yaml
   - ./empty-quote.yaml
   - ./order.yaml
+=======
+# Copyright The OpenTelemetry Authors
+# SPDX-License-Identifier: Apache-2.0
+
+type: TestSuite
+spec:
+  id: shipping-all
+  name: 'Shipping Service'
+  description: Run all Shipping Service tests enabled in sequence
+  steps:
+  - ./quote.yaml
+  - ./empty-quote.yaml
+  - ./order.yaml
+>>>>>>> 9594cd0 (chore: verify github actions)

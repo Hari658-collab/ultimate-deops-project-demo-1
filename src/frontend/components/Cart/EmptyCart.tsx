@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
@@ -21,3 +22,28 @@ const EmptyCart = () => {
 };
 
 export default EmptyCart;
+=======
+// Copyright The OpenTelemetry Authors
+// SPDX-License-Identifier: Apache-2.0
+
+import Link from 'next/link';
+import Button from '../Button';
+import * as S from '../../styles/Cart.styled';
+
+const EmptyCart = () => {
+  return (
+    <S.EmptyCartContainer>
+      <S.Title>Your shopping cart is empty!</S.Title>
+      <S.Subtitle>Items you add to your shopping cart will appear here.</S.Subtitle>
+
+      <S.ButtonContainer>
+        <Link href="/">
+          <Button type="submit">Continue Shopping</Button>
+        </Link>
+      </S.ButtonContainer>
+    </S.EmptyCartContainer>
+  );
+};
+
+export default EmptyCart;
+>>>>>>> 9594cd0 (chore: verify github actions)
