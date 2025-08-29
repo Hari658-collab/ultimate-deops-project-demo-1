@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 
@@ -22,3 +24,34 @@ telemetry:
 server:
   telemetry:
     exporter: collector
+=======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
+# Copyright The OpenTelemetry Authors
+# SPDX-License-Identifier: Apache-2.0
+
+postgres:
+  host: tracetest-postgres
+  user: postgres
+  password: postgres
+  port: 5432
+  dbname: postgres
+  params: sslmode=disable
+
+telemetry:
+  exporters:
+    collector:
+      serviceName: tracetest
+      sampling: 100
+      exporter:
+        type: collector
+        collector:
+          endpoint: otel-collector:4317
+
+server:
+  telemetry:
+    exporter: collector
+<<<<<<< HEAD
+>>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

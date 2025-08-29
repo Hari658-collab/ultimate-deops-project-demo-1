@@ -1,6 +1,21 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 FROM cypress/included:10.3.1-typescript
 WORKDIR /app
 COPY ./src/frontend .
 RUN npm clean-install
 
 ENTRYPOINT ["cypress", "run"]
+=======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
+FROM cypress/included:10.3.1-typescript
+WORKDIR /app
+COPY ./src/frontend .
+RUN npm clean-install
+
+ENTRYPOINT ["cypress", "run"]
+<<<<<<< HEAD
+>>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

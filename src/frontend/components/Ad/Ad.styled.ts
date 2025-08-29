@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
@@ -22,3 +24,34 @@ export const Link = styled(RouterLink)`
   color: black;
   text-decoration: none;
 `;
+=======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
+// Copyright The OpenTelemetry Authors
+// SPDX-License-Identifier: Apache-2.0
+
+import styled from 'styled-components';
+import RouterLink from 'next/link';
+
+export const Ad = styled.section`
+  position: relative;
+  background-color: ${({ theme }) => theme.colors.otelYellow};
+  font-size: ${({ theme }) => theme.sizes.dMedium};
+  text-align: center;
+  padding: 48px;
+
+  * {
+    color: ${({ theme }) => theme.colors.white};
+    margin: 0;
+    cursor: pointer;
+  }
+`;
+
+export const Link = styled(RouterLink)`
+  color: black;
+  text-decoration: none;
+`;
+<<<<<<< HEAD
+>>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

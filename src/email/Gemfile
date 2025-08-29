@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 
 
 source "https://rubygems.org"
@@ -10,3 +12,22 @@ gem "sinatra",  "~> 3.0"
 gem "opentelemetry-sdk", "~> 1.4.1"
 gem "opentelemetry-exporter-otlp", "~> 0.26.3"
 gem "opentelemetry-instrumentation-all", "~> 0.60.0"
+=======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
+
+
+source "https://rubygems.org"
+
+gem "net-smtp", "~> 0.3"
+gem "pony",     "~> 1.13"
+gem "puma",     "~> 6.3"
+gem "sinatra",  "~> 3.0"
+
+gem "opentelemetry-sdk", "~> 1.4.1"
+gem "opentelemetry-exporter-otlp", "~> 0.26.3"
+gem "opentelemetry-instrumentation-all", "~> 0.60.0"
+<<<<<<< HEAD
+>>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

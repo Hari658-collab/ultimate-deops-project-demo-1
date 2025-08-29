@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
@@ -27,3 +29,39 @@ const CartGateway = () => ({
 });
 
 export default CartGateway();
+=======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
+// Copyright The OpenTelemetry Authors
+// SPDX-License-Identifier: Apache-2.0
+
+import { ChannelCredentials } from '@grpc/grpc-js';
+import { Cart, CartItem, CartServiceClient, Empty } from '../../protos/demo';
+
+const { CART_ADDR = '' } = process.env;
+
+const client = new CartServiceClient(CART_ADDR, ChannelCredentials.createInsecure());
+
+const CartGateway = () => ({
+  getCart(userId: string) {
+    return new Promise<Cart>((resolve, reject) =>
+      client.getCart({ userId }, (error, response) => (error ? reject(error) : resolve(response)))
+    );
+  },
+  addItem(userId: string, item: CartItem) {
+    return new Promise<Empty>((resolve, reject) =>
+      client.addItem({ userId, item }, (error, response) => (error ? reject(error) : resolve(response)))
+    );
+  },
+  emptyCart(userId: string) {
+    return new Promise<Empty>((resolve, reject) =>
+      client.emptyCart({ userId }, (error, response) => (error ? reject(error) : resolve(response)))
+    );
+  },
+});
+
+export default CartGateway();
+<<<<<<< HEAD
+>>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
@@ -79,3 +81,91 @@ const CartDetail = () => {
 };
 
 export default CartDetail;
+=======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
+// Copyright The OpenTelemetry Authors
+// SPDX-License-Identifier: Apache-2.0
+
+import { useRouter } from 'next/router';
+import { useCallback } from 'react';
+import CartItems from '../CartItems';
+import CheckoutForm from '../CheckoutForm';
+import { IFormData } from '../CheckoutForm/CheckoutForm';
+import SessionGateway from '../../gateways/Session.gateway';
+import { useCart } from '../../providers/Cart.provider';
+import { useCurrency } from '../../providers/Currency.provider';
+import * as S from '../../styles/Cart.styled';
+
+const { userId } = SessionGateway.getSession();
+
+const CartDetail = () => {
+  const {
+    cart: { items },
+    emptyCart,
+    placeOrder,
+  } = useCart();
+  const { selectedCurrency } = useCurrency();
+  const { push } = useRouter();
+
+  const onPlaceOrder = useCallback(
+    async ({
+      email,
+      state,
+      streetAddress,
+      country,
+      city,
+      zipCode,
+      creditCardCvv,
+      creditCardExpirationMonth,
+      creditCardExpirationYear,
+      creditCardNumber,
+    }: IFormData) => {
+      const order = await placeOrder({
+        userId,
+        email,
+        address: {
+          streetAddress,
+          state,
+          country,
+          city,
+          zipCode,
+        },
+        userCurrency: selectedCurrency,
+        creditCard: {
+          creditCardCvv,
+          creditCardExpirationMonth,
+          creditCardExpirationYear,
+          creditCardNumber,
+        },
+      });
+
+      push({
+        pathname: `/cart/checkout/${order.orderId}`,
+        query: { order: JSON.stringify(order) },
+      });
+    },
+    [placeOrder, push, selectedCurrency]
+  );
+
+  return (
+    <S.Container>
+      <div>
+        <S.Header>
+          <S.CarTitle>Shopping Cart</S.CarTitle>
+          <S.EmptyCartButton onClick={emptyCart} $type="link">
+            Empty Cart
+          </S.EmptyCartButton>
+        </S.Header>
+        <CartItems productList={items} />
+      </div>
+      <CheckoutForm onSubmit={onPlaceOrder} />
+    </S.Container>
+  );
+};
+
+export default CartDetail;
+<<<<<<< HEAD
+>>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
