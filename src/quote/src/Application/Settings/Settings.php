@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
@@ -27,6 +28,8 @@ class Settings implements SettingsInterface
     }
 }
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 <?php
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
@@ -54,4 +57,7 @@ class Settings implements SettingsInterface
         return (empty($key)) ? $this->settings : $this->settings[$key];
     }
 }
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

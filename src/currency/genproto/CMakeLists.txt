@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 cmake_minimum_required(VERSION 3.1)
 project(currency-proto)
 
@@ -59,6 +60,8 @@ add_library(demo-proto ${DEMO_PB_H_FILE}
 target_link_libraries(demo-proto gRPC::grpc++ protobuf::libprotobuf)
 include_directories("${GENERATED_PROTOBUF_PATH}" )
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 cmake_minimum_required(VERSION 3.1)
 project(currency-proto)
 
@@ -118,4 +121,7 @@ add_library(demo-proto ${DEMO_PB_H_FILE}
 
 target_link_libraries(demo-proto gRPC::grpc++ protobuf::libprotobuf)
 include_directories("${GENERATED_PROTOBUF_PATH}" )
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

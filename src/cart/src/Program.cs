@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 using System;
@@ -96,6 +97,8 @@ app.MapGet("/", async context =>
 
 app.Run();
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 using System;
@@ -192,4 +195,7 @@ app.MapGet("/", async context =>
 });
 
 app.Run();
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

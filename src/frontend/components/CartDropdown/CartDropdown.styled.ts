@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
@@ -100,6 +101,8 @@ export const EmptyCart = styled.h3`
   color: ${({ theme }) => theme.colors.textLightGray};
 `;
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
@@ -200,4 +203,7 @@ export const EmptyCart = styled.h3`
   font-size: ${({ theme }) => theme.sizes.mLarge};
   color: ${({ theme }) => theme.colors.textLightGray};
 `;
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

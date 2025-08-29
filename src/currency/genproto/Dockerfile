@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 # Copyright 2023 The OpenTelemetry Authors
@@ -27,6 +28,8 @@ RUN cd /currency \
     && cmake ../genproto \
     && make -j$(nproc || sysctl -n hw.ncpu || echo 1) demo-proto
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 # Copyright 2023 The OpenTelemetry Authors
@@ -54,4 +57,7 @@ RUN cd /currency \
     && mkdir -p build && cd build \
     && cmake ../genproto \
     && make -j$(nproc || sysctl -n hw.ncpu || echo 1) demo-proto
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

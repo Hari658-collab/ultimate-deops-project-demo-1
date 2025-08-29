@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
@@ -48,6 +49,8 @@ Global
 	EndGlobalSection
 EndGlobal
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
@@ -96,4 +99,7 @@ Global
 		{59825342-CE64-4AFA-8744-781692C0811B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

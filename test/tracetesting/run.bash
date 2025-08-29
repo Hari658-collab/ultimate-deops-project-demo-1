@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 #/bin/bash
@@ -110,6 +111,8 @@ echo "Tests done! Exit code: $max_exit_code"
 
 exit $max_exit_code
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 #/bin/bash
@@ -220,4 +223,7 @@ echo ""
 echo "Tests done! Exit code: $max_exit_code"
 
 exit $max_exit_code
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

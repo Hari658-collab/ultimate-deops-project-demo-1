@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Email Service
 
 The Email service "sends" an email to the customer with their order details by
@@ -23,6 +24,8 @@ You may run this service locally with `bundle exec ruby email_server.rb`.
 
 From `src/email`, run `docker build .`
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 # Email Service
 
 The Email service "sends" an email to the customer with their order details by
@@ -46,4 +49,7 @@ You may run this service locally with `bundle exec ruby email_server.rb`.
 ## Docker Build
 
 From `src/email`, run `docker build .`
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

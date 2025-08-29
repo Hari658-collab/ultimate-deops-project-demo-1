@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 backoff==2.2.1
 brotli==1.1.0
 certifi==2023.7.22
@@ -48,6 +49,8 @@ zope-event==5.0
 zope-interface==6.1
 python-json-logger==2.0.7
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 backoff==2.2.1
 brotli==1.1.0
 certifi==2023.7.22
@@ -96,4 +99,7 @@ wrapt==1.16.0
 zope-event==5.0
 zope-interface==6.1
 python-json-logger==2.0.7
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

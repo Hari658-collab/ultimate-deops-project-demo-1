@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 //
 
 //go:build tools
@@ -15,6 +16,8 @@ import (
 	_ "github.com/client9/misspell/cmd/misspell"
 )
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 //
 
 //go:build tools
@@ -30,4 +33,7 @@ package tools
 import (
 	_ "github.com/client9/misspell/cmd/misspell"
 )
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

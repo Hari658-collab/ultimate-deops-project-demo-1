@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
@@ -16,6 +17,8 @@ const PlatformFlag = () => {
 
 export default PlatformFlag;
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
@@ -32,4 +35,7 @@ const PlatformFlag = () => {
 };
 
 export default PlatformFlag;
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

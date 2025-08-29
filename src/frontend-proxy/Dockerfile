@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 
@@ -11,6 +12,8 @@ COPY ./src/frontend-proxy/envoy.tmpl.yaml envoy.tmpl.yaml
 
 ENTRYPOINT ["/bin/sh", "-c", "envsubst < envoy.tmpl.yaml > envoy.yaml && envoy -c envoy.yaml;"]
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 
@@ -22,4 +25,7 @@ WORKDIR /home/envoy
 COPY ./src/frontend-proxy/envoy.tmpl.yaml envoy.tmpl.yaml
 
 ENTRYPOINT ["/bin/sh", "-c", "envsubst < envoy.tmpl.yaml > envoy.yaml && envoy -c envoy.yaml;"]
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

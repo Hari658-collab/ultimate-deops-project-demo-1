@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Shipping Service
 
 The Shipping service queries `quote` for price quote, provides tracking IDs,
@@ -23,6 +24,8 @@ docker compose build shipping
 cargo test
 ```
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 # Shipping Service
 
 The Shipping service queries `quote` for price quote, provides tracking IDs,
@@ -46,4 +49,7 @@ docker compose build shipping
 ```sh
 cargo test
 ```
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Frontend service
 
 The frontend is a [Next.js](https://nextjs.org/) application that is composed
@@ -26,6 +27,8 @@ It will start all of the required backend services
 and within the container simply run `npm run dev`.
 After that the app should be available at <http://localhost:8080/>.
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 # Frontend service
 
 The frontend is a [Next.js](https://nextjs.org/) application that is composed
@@ -52,4 +55,7 @@ from the root folder.
 It will start all of the required backend services
 and within the container simply run `npm run dev`.
 After that the app should be available at <http://localhost:8080/>.
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

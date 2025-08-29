@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!-- Copyright The OpenTelemetry Authors -->
 <!-- -->
 <!-- Licensed under the Apache License, Version 2.0 (the "License"); -->
@@ -17,6 +18,8 @@
 <path d="M13.6656 0.9375L6.33437 10.6031L2 6.27187L0 8.27188L6.66563 14.9375L16 2.9375L13.6656 0.9375Z" fill="black"/>
 </svg>
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 <!-- Copyright The OpenTelemetry Authors -->
 <!-- -->
 <!-- Licensed under the Apache License, Version 2.0 (the "License"); -->
@@ -34,4 +37,7 @@
 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M13.6656 0.9375L6.33437 10.6031L2 6.27187L0 8.27188L6.66563 14.9375L16 2.9375L13.6656 0.9375Z" fill="black"/>
 </svg>
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

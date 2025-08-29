@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 # Source: opentelemetry-demo/templates/component.yaml
 apiVersion: v1
@@ -21,6 +22,8 @@ spec:
   selector:
     opentelemetry.io/name: opentelemetry-demo-adservice
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 ---
 # Source: opentelemetry-demo/templates/component.yaml
 apiVersion: v1
@@ -42,4 +45,7 @@ spec:
       targetPort: 8080
   selector:
     opentelemetry.io/name: opentelemetry-demo-adservice
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

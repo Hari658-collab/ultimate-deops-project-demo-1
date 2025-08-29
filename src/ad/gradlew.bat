@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 @rem
 @rem Copyright 2015 the original author or authors.
 @rem
@@ -93,6 +94,8 @@ if "%OS%"=="Windows_NT" endlocal
 :omega
 
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 @rem
 @rem Copyright 2015 the original author or authors.
 @rem
@@ -186,4 +189,7 @@ if "%OS%"=="Windows_NT" endlocal
 
 :omega
 
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

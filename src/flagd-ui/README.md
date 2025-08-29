@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Flagd-ui
 
 This application provides a user interface for configuring the feature
@@ -25,6 +26,8 @@ npm run dev
 
 Then you must navigate to `localhost:4000/feature`.
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 # Flagd-ui
 
 This application provides a user interface for configuring the feature
@@ -50,4 +53,7 @@ npm run dev
 ```
 
 Then you must navigate to `localhost:4000/feature`.
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

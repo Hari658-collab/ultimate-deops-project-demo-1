@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
@@ -36,6 +37,8 @@ export const ProductPrice = styled.p`
   font-weight: ${({ theme }) => theme.fonts.bold};
 `;
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
@@ -72,4 +75,7 @@ export const ProductPrice = styled.p`
   font-size: ${({ theme }) => theme.sizes.dMedium};
   font-weight: ${({ theme }) => theme.fonts.bold};
 `;
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

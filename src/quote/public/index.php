@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
@@ -94,6 +95,8 @@ $server->listen($socket);
 
 echo "Listening on: {$address}" . PHP_EOL;
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 <?php
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
@@ -188,4 +191,7 @@ $socket = new SocketServer($address);
 $server->listen($socket);
 
 echo "Listening on: {$address}" . PHP_EOL;
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 const grpc = require('@grpc/grpc-js')
@@ -57,6 +58,8 @@ server.bindAsync(`0.0.0.0:${process.env['PAYMENT_PORT']}`, grpc.ServerCredential
 process.once('SIGINT', closeGracefully)
 process.once('SIGTERM', closeGracefully)
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 const grpc = require('@grpc/grpc-js')
@@ -114,4 +117,7 @@ server.bindAsync(`0.0.0.0:${process.env['PAYMENT_PORT']}`, grpc.ServerCredential
 
 process.once('SIGINT', closeGracefully)
 process.once('SIGTERM', closeGracefully)
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

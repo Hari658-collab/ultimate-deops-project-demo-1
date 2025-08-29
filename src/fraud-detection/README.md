@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Fraud Detection Service
 
 This service receives new orders by a Kafka topic and returns cases which are
@@ -21,6 +22,8 @@ To build using Docker run from the repo root:
 docker build -f ./src/fraud-detection/Dockerfile .
 ```
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 # Fraud Detection Service
 
 This service receives new orders by a Kafka topic and returns cases which are
@@ -42,4 +45,7 @@ To build using Docker run from the repo root:
 ```sh
 docker build -f ./src/fraud-detection/Dockerfile .
 ```
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

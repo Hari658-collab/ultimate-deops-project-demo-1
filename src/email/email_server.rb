@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 
@@ -53,6 +54,8 @@ def send_email(data)
   # https://opentelemetry.io/docs/instrumentation/ruby/manual/#creating-new-spans 
 end
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 
@@ -106,4 +109,7 @@ def send_email(data)
   # check out the OpenTelemetry Ruby docs at: 
   # https://opentelemetry.io/docs/instrumentation/ruby/manual/#creating-new-spans 
 end
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

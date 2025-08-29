@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Accounting Service
 
 This service consumes new orders from a Kafka topic.
@@ -28,6 +29,8 @@ To bump all dependencies run in Package manager:
 Update-Package -ProjectName Accounting
 ```
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 # Accounting Service
 
 This service consumes new orders from a Kafka topic.
@@ -56,4 +59,7 @@ To bump all dependencies run in Package manager:
 ```sh
 Update-Package -ProjectName Accounting
 ```
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

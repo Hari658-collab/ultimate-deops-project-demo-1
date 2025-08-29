@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 import { registerOTel } from "@vercel/otel";
@@ -7,6 +8,8 @@ export function register() {
   registerOTel({ serviceName: "flagd-ui" });
 }
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 import { registerOTel } from "@vercel/otel";
@@ -14,4 +17,7 @@ import { registerOTel } from "@vercel/otel";
 export function register() {
   registerOTel({ serviceName: "flagd-ui" });
 }
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

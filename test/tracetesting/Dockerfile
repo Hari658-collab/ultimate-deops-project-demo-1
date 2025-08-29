@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 
@@ -17,6 +18,8 @@ WORKDIR /app/test/tracetesting
 
 ENTRYPOINT ["/bin/bash", "/app/test/tracetesting/run.bash"]
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 
@@ -34,4 +37,7 @@ RUN curl -L https://raw.githubusercontent.com/kubeshop/tracetest/main/install-cl
 WORKDIR /app/test/tracetesting
 
 ENTRYPOINT ["/bin/bash", "/app/test/tracetesting/run.bash"]
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

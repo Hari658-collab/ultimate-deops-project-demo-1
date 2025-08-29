@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 /*
@@ -20,6 +21,8 @@ export default function imageLoader({ src, width, quality }) {
   return `${protocol}://${hostname}:${port}/${src}?w=${width}&q=${quality || 75}`
 }
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 /*
@@ -40,4 +43,7 @@ export default function imageLoader({ src, width, quality }) {
   // We pass down the optimisation request to the image-provider service here, without this, nextJs would try to use internal optimiser which is not working with the external image-provider.
   return `${protocol}://${hostname}:${port}/${src}?w=${width}&q=${quality || 75}`
 }
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

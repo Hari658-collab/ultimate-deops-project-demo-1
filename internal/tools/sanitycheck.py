@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #!/usr/bin/env python3
 
 
@@ -93,6 +94,8 @@ retval += sanitycheck('**/*.yml', allow_eol = (LF,), indent = 2)
 
 sys.exit(retval)
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 #!/usr/bin/env python3
 
 
@@ -186,4 +189,7 @@ retval += sanitycheck('**/*.xml', allow_eol = (LF,), indent = 2)
 retval += sanitycheck('**/*.yml', allow_eol = (LF,), indent = 2)
 
 sys.exit(retval)
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

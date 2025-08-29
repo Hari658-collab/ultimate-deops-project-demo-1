@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 FROM golang:1.22-alpine AS builder
 
 WORKDIR /usr/src/app/
@@ -31,6 +32,8 @@ COPY --from=builder /usr/src/app/product-catalog/ ./
 ENV PRODUCT_CATALOG_PORT=8088
 ENTRYPOINT [ "./product-catalog" ]
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 FROM golang:1.22-alpine AS builder
 
 WORKDIR /usr/src/app/
@@ -62,4 +65,7 @@ COPY --from=builder /usr/src/app/product-catalog/ ./
 
 ENV PRODUCT_CATALOG_PORT=8088
 ENTRYPOINT [ "./product-catalog" ]
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 
@@ -15,6 +16,8 @@ spec:
   - ./05-view-cart.yaml
   - ./06-checking-out-cart.yaml
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 
@@ -30,4 +33,7 @@ spec:
   - ./04-add-product-to-cart.yaml
   - ./05-view-cart.yaml
   - ./06-checking-out-cart.yaml
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

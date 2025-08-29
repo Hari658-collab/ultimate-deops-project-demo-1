@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Product Catalog Service
 
 When this service is run the output should be similar to the following
@@ -42,6 +43,8 @@ go get -u -t ./...
 go mod tidy
 ```
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 # Product Catalog Service
 
 When this service is run the output should be similar to the following
@@ -84,4 +87,7 @@ To bump all dependencies run:
 go get -u -t ./...
 go mod tidy
 ```
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

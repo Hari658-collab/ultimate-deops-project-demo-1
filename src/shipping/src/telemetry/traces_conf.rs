@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
@@ -27,6 +28,8 @@ pub fn init_reqwest_tracing(
     tracing::subscriber::set_global_default(subscriber)
 }
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
@@ -54,4 +57,7 @@ pub fn init_reqwest_tracing(
     let subscriber = Registry::default().with(telemetry);
     tracing::subscriber::set_global_default(subscriber)
 }
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

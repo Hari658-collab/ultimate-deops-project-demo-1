@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 module github.com/open-telemetry/opentelemetry-demo/src/checkout
 
 go 1.22.7
@@ -98,6 +99,8 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 )
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 module github.com/open-telemetry/opentelemetry-demo/src/checkout
 
 go 1.22.7
@@ -196,4 +199,7 @@ require (
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 )
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 cmake_minimum_required(VERSION 3.1)
 project(currency)
 
@@ -23,6 +24,8 @@ target_link_libraries(
 
 install(TARGETS currency DESTINATION bin)
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 cmake_minimum_required(VERSION 3.1)
 project(currency)
 
@@ -46,4 +49,7 @@ target_link_libraries(
      opentelemetry_metrics opentelemetry_exporter_otlp_grpc_metrics gRPC::grpc++)
 
 install(TARGETS currency DESTINATION bin)
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

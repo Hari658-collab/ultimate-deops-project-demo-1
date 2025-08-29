@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Checkout Service
 
 This service provides checkout services for the application.
@@ -36,6 +37,8 @@ go get -u -t ./...
 go mod tidy
 ```
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 # Checkout Service
 
 This service provides checkout services for the application.
@@ -72,4 +75,7 @@ To bump all dependencies run:
 go get -u -t ./...
 go mod tidy
 ```
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Quote Service
 
 The Quote Service calculates the shipping costs,
@@ -46,6 +47,8 @@ curl --location 'http://localhost:8999/getquote' \
 --data '{"numberOfItems":3}'
 ```
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 # Quote Service
 
 The Quote Service calculates the shipping costs,
@@ -92,4 +95,7 @@ curl --location 'http://localhost:8999/getquote' \
 --header 'Content-Type: application/json' \
 --data '{"numberOfItems":3}'
 ```
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
@@ -65,6 +66,8 @@ const CartDropdown = ({ productList, isOpen, onClose }: IProps) => {
 
 export default CartDropdown;
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
@@ -130,4 +133,7 @@ const CartDropdown = ({ productList, isOpen, onClose }: IProps) => {
 };
 
 export default CartDropdown;
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

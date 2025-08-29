@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Currency Service
 
 The Currency Service does the conversion from one currency to another.
@@ -32,6 +33,8 @@ docker exec -it <container_name> currencyclient 7000
 
 '7000' is port where currency listens to.
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 # Currency Service
 
 The Currency Service does the conversion from one currency to another.
@@ -64,4 +67,7 @@ docker exec -it <container_name> currencyclient 7000
 ```
 
 '7000' is port where currency listens to.
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

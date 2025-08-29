@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 
@@ -35,6 +36,8 @@ spec:
     assertions:
     - attr:app.ads.count = 2
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 
@@ -70,4 +73,7 @@ spec:
     selector: span[tracetest.span.type="rpc" name="oteldemo.AdService/GetAds" rpc.system="grpc" rpc.method="GetAds" rpc.service="oteldemo.AdService"]
     assertions:
     - attr:app.ads.count = 2
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

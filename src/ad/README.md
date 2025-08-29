@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Ad Service
 
 The Ad service provides advertisement based on context keys. If no context keys
@@ -45,6 +46,8 @@ From the root of `opentelemetry-demo`, run:
 docker build --file ./src/ad/Dockerfile ./
 ```
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 # Ad Service
 
 The Ad service provides advertisement based on context keys. If no context keys
@@ -90,4 +93,7 @@ From the root of `opentelemetry-demo`, run:
 ```sh
 docker build --file ./src/ad/Dockerfile ./
 ```
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2

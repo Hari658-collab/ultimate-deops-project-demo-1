@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 
@@ -38,6 +39,8 @@ spec:
     assertions:
     - attr:db.statement = "HMSET 2491f868-88f1-4345-8836-d5d8511a9f83"
 =======
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
 # Copyright The OpenTelemetry Authors
 # SPDX-License-Identifier: Apache-2.0
 
@@ -76,4 +79,7 @@ spec:
     selector: span[tracetest.span.type="database" name="HMSET" db.system="redis" db.redis.database_index="0"]
     assertions:
     - attr:db.statement = "HMSET 2491f868-88f1-4345-8836-d5d8511a9f83"
+<<<<<<< HEAD
 >>>>>>> 9594cd0 (chore: verify github actions)
+=======
+>>>>>>> e3cfa673a16b249f79fbbe636908819d58b798d2
