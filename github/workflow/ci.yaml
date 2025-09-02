@@ -75,10 +75,10 @@ jobs:
       run: |
         sed -i 's/image: .*/image: ${{ secrets.DOCKERHUB_USERNAME }}/product-catalog:${{ github.run_id }}/' kubernetes/productcatalog/deploy.yaml
 
-    - name: Commit and push changes
+    - name: Commit and push changes 
       run: |
         git config --global user.email "hari.904175@gmail.com"
         git config --global user.name "Harichandana"
         git add kubernetes/productcatalog/deploy.yaml
-        git commit -m "[CI]: Update Product Catalog image tag "
+        git commit -m "[CI]: Update Product Catalog image tag"
         git push
