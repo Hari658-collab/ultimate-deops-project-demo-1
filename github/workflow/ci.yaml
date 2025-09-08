@@ -3,9 +3,12 @@
 name: product-catalog-ci
 
 on:
+  push:
+    branches:
+      - githubcicheck
   pull_request:
-     branches:
-       - main
+    branches:
+      - main
 
 jobs:
   build:
