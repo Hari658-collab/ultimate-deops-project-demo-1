@@ -1,4 +1,5 @@
 
+
 # Source: opentelemetry-demo/templates/component.yaml
 apiVersion: v1
 kind: Service

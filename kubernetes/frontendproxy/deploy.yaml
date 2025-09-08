@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
----
+
 # Source: opentelemetry-demo/templates/component.yaml
 apiVersion: apps/v1
 kind: Deployment
